@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: rgb(1, 1, 78);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.logo img {
+    width:100px ;
+    height:100px ;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url(2e8ac08e-916b-40c0-975b-7ba1d8d194a3.jpeg);
+    background-size: cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: white;
+}
+
+
+.courses {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.courses h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.course {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(1, 1, 78);
+}
+
+.course p {
+    margin: 10px 0;
+}
+
+.course button {
+    background-color: rgb(1, 1, 78);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course button:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
